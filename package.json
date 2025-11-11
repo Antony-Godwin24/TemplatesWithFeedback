@@ -1,0 +1,21 @@
+{
+  "name": "payload-next-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:payload": "node server.js",
+    "dev:next": "next dev",
+    "build:next": "next build",
+    "start:next": "next start"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "next": "^13.4.10",
+    "payload": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4"
+  }
+}
+
